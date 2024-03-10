@@ -1,0 +1,73 @@
+{
+	"embeds": {
+		"openTicket": {
+			"title": "Open a ticket",
+			"description": "__**🇬🇧 Dear customers,**__\n\nWe thank you for your interest in our products. To ensure a smooth and efficient shopping experience on our server, we have set up a specific procedure.\n\nBefore purchasing v-bucks, we invite you to visit the <#1200995484869853264>, where you'll find detailed information on the purchasing procedure. For information specific to Modern Warfare® 3/ Warzone, please refer to the shows dedicated to this game.\n\nOnce you have familiarized yourself with this information, you will need to **create a ticket** for the product purchase. This ticket will allow us to track your request and provide you with personalized assistance throughout the purchasing process.\n\nWe thank you for your understanding and look forward to serving you.\n### __And ONLY make a ticket when you are 100% ready to buy or else you will be banned.__\n\n__**Best regards, the Nexus Shop team.**__\n\n\n__**🇫🇷 Chers clients,**__\n\nNous vous remercions de l'intérêt que vous portez à nos produits. Afin de vous assurer une expérience d'achat fluide et efficace sur notre serveur, nous avons mis en place une procédure spécifique.\n\nAvant de procéder à l’achat de v-bucks, nous vous invitons à consulter le canal <#1200995484869853264> où vous trouverez toutes les informations détaillées sur la procédure d’achat. Pour des informations spécifiques à Modern Warfare® 3/ Warzone, veuillez vous référer aux salons dédiés à ce jeu.\n\nUne fois que vous aurez pris connaissance de ces informations, vous devrez **créer un ticket** pour l'achat du produit. Ce ticket nous permettra de suivre votre demande et de vous fournir une assistance personnalisée tout au long du processus d'achat.\n\nNous vous remercions de votre compréhension et nous nous réjouissons de pouvoir vous servir.\n### __Et ne créez un ticket que lorsque vous êtes prêt à 100% à acheter, sinon vous serez banni.__\n\n__**Meilleures salutations, l'équipe Nexus Shop.**__",
+			"footer": {
+				"text": "Nexus | Ticket"
+			}
+		},
+		"ticketOpened": {
+			"title": "Ticket CATEGORYNAME",
+			"description": "A staff will reply you as soon as possible!",
+			"footer": {
+				"text": "Nexus | Ticket"
+			}
+		},
+		"ticketClosed": {
+			"title": "Ticket closed",
+			"description": "The ticket has been closed by CLOSERNAME with the following reason: `REASON`"
+		},
+		"ticketClosedDM": {
+			"title": "Ticket closed",
+			"description": "The ticket n°TICKETCOUNT has been closed by CLOSERNAME with the following reason: `REASON`\n\nHere is the transcript of the ticket: TRANSCRIPTURL",
+			"footer": {
+				"text": "Nexus | Ticket"
+			}
+		}
+	},
+	"modals": {
+		"reasonTicketOpen": {
+			"title": "Open ticket",
+			"label": "The reason of your ticket",
+			"placeholder": "Please enter the reason of why you are opening a ticket"
+		},
+		"reasonTicketClose": {
+			"title": "Close ticket",
+			"label": "The reason of the ticket closure",
+		"placeholder": "Please enter the reason of why you are closing the ticket"
+		}
+	},
+	"buttons": {
+		"close": {
+			"label": "Close ticket",
+			"emoji": "🔒"
+		},
+		"claim": {
+			"label": "Claim",
+			"emoji": "🙋"
+		}
+	},
+	"invalidConfig": "Invalid configuration detected, please ask the bot operator to fix it!",
+	"ticketOpenedMessage": "Ticket opened! TICKETCHANNEL",
+	"ticketOnlyClaimableByStaff": "The ticket can only be claimed by a staff!",
+	"ticketAlreadyClaimed": "The ticket is already claimed!",
+	"ticketClaimedMessage": "> Ticket claimed by USER",
+	"ticketOnlyClosableByStaff": "Only staff can close the ticket!",
+	"ticketAlreadyClosed": "The ticket is already closed!",
+	"ticketCreatingTranscript": "> Creating transcript...",
+	"ticketTranscriptCreated": "> Transcript created! TRANSCRIPTURL",
+	"ticketOnlyRenamableByStaff": "Only staff can rename tickets!",
+	"ticketRenamed": "> Ticket renamed to NEWNAME",
+	"ticketLimitReached": "You can only have TICKETLIMIT tickets opened at the same time!",
+	"noTickets": "You don't have access to any tickets",
+
+	"other": {
+		"openTicketButtonMSG": "🛒〢Open a ticket",
+		"deleteTicketButtonMSG": "Delete ticket",
+		"selectTicketTypePlaceholder": "Select a ticket type",
+		"claimedBy": "**Claimed By**: USER",
+		"noReasonGiven": "No reason given",
+		"unavailable": "Unavailable"
+	}
+}
